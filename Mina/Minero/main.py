@@ -1,22 +1,24 @@
 import hashlib 
+import time as t
+comensament=t.time()
 
-NONCE_LIMIT = 100000000000
+NONCE_LIMIT = 10000000000
 
-zeroes = 4 
+zeros = 4
 
-def mine(block_number, transactions, previous_hash):
+def mina(numero_de_bloc, transaccions, hash_anterior):
 	for nonce in range(NONCE_LIMIT):
-		base_text = str(block_number) + transactions + previous_hash + str(nonce)
-		hash_try = hashlib.sha256(base_text.encode()).hexdigest()
-		if hash_try.startswiths('0' * zeroes):
-			print(f"Found Hash With Nonce: {nonce}")
+		text_base = str(numero_de_bloc) + transaccions + hash_anterior + str(nonce)
+		hash_try = hashlib.sha256(text_base.encode()).hexdigest()
+		if hash_try.startswith('0' * zeros):
+			print(f"Hash trobat amb Nonce: {nonce}")
 			return hash_try
 
 	return -1
 
-block_number = 24
-transactions = "76123fcc2141"
-previous_hash = "876de875b967c87"
+numero_de_bloc = 24
+transaccions = "76123fcc2141"
+hash_anterior = "876de875b967c87"
 
-combined_text = str(block_number) + transactions + previous_hash + (78)
-print(hashlib.sah256(combined_text.encode()).hexdigest())
+text_combinat = str(numero_de_bloc) + transaccions + hash_anterior + str(26977)
+print(hashlib.sha256(text_combinat.encode()).hexdigest())

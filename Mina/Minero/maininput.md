@@ -49,6 +49,7 @@ Return per acabar el condicional
 ```return```
 
 En el bucle for si el programa proba els 10000000000 numeros i no troba el hash farem enviar al programa un misatge de error amb return -1
+
 ```return -1```
 
 Comencem el instant temps perque comenci a comptar cuan s'executi el miner. Cal remarcar que es anomenat comensament sense c trencada ja que el codi es sol escriure en angles i no un altre idioma ja que si utiltzem caracters que no procesa el llenguatge els podria interpretar erroneament i per tant no fer funcional el programa.

@@ -10,4 +10,4 @@ print('''/
 	''')
 
 value = input("Escriu el contingut a encriptar amb sha256: ")
-print("El contingut encriptat amb l'algoritme sha256: " + sha256(value.encode("ascii")).hexdigest())
+print("El contingut encriptat amb l'algoritme sha256 és: " + sha256(value.encode("ascii")).hexdigest())

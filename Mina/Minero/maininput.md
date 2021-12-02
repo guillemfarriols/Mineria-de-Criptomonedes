@@ -1,5 +1,9 @@
+---
+title: "Minador de Criptomonedes"
+date: \today
+author: "Enric Vidal i Guillem Farriols
+---
 # Minador de Criptomonedes Miner
-
 Importem hashlib, la llibreria on conté l'algoritme criptogràfic sha256.
 
 ```import hashlib```

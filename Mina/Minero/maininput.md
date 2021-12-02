@@ -66,6 +66,8 @@ Per acabar aturem el temps.
 
 I imprimim a consola el temps entre el comensament d'execucio del programa fins al final
 
+```print("\nEl procces de minar a durat ",temps_donat,"segons")```
+
 
 
 

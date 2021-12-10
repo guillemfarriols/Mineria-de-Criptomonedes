@@ -41,7 +41,7 @@ Dintre del bucle for li direm que ajunti en text_base les tres variables donades
 text_base = str(numero_de_bloc) + transaccions + hash_anterior + str(nonce)
 ```
 
-Dintre del bucle for seguit del text_base encriptarem amb l'algoritme sha256 el text_base
+Dintre del bucle for seguit del text_base encriptarem amb l'algoritme SHA-256 el text_base
 
 ```
 hash_try = hashlib.sha256(text_base.encode()).hexdigest()

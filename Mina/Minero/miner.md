@@ -17,7 +17,7 @@ Li diem al programa que el límit de números que pot provar per desxifrar el mi
 NONCE_LIMIT = 10000000000
 ```
 
-Establim el número de zeros en aquest cas a 4, segons la dificultat donada.
+Establim el nombre de zeros en aquest cas a 4, segons la dificultat donada.
 
 ```
 zeros = 4

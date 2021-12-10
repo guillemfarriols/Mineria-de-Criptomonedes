@@ -1,5 +1,5 @@
 # Minador de Criptomonedes Miner
-Importem hashlib, la llibreria on conté l'algoritme criptogràfic sha256.
+Importem hashlib, la llibreria on conté l'algoritme criptogràfic SHA-256.
 
 ```
 import hashlib

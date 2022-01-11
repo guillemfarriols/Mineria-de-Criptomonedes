@@ -1,0 +1,220 @@
+/** Start Web Page **/
+
+html {
+  background-image: url('../images/external-content.duckduckgo.jpg');
+}
+
+
+body {
+  background-image: url('../images/external-content.duckduckgo.jpg');
+}
+
+/** CANVA **/
+
+canvas {
+
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 13px; 
+
+}
+
+/** END CANVA **/
+
+.box {
+  width: 100%;
+  height: 1050px;
+  background-color: #8C52FF;
+}
+
+.box p {
+  opacity: 80%;
+  position: relative;
+  z-index: 1;
+  border: px solid #8C52FF;
+  border-radius: 8px;
+  width: 100%;
+  height: 1050px;
+  background-color: #8C52FF;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #8C52FF;
+  border-radius: 8px;
+  border: 0;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 { /* TREBALL DE RECERCA */
+  font-family: 'Bebas Neue', cursive;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0.1px 0.11px 0.1px #222;
+  line-height: .75;
+  padding-left: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a:hover  {
+  background: #E7E7E7;
+  color: blueviolet;
+}
+
+/* END HEADER */
+
+
+/* Poster */
+
+.poster {
+  position: relative;
+  width: 100%; 
+  height: 0; 
+  padding-top: 141.4286%;
+  padding-bottom: 48px; 
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+  margin-top: ; 
+  margin-bottom: ; 
+  overflow: hidden;
+  border-radius: 8px; will-change: transform;
+}
+
+.poster iframe {
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  border: none; 
+  padding: 0;
+  margin: 0;
+}
+
+/* CONTAINER */
+
+.iframe-container {
+  padding-top: 46%;
+  position: relative;
+  width: 99%;
+  border: 5px solid #8C52FF;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.iframe-container iframe {
+  top: 0;
+  position: absolute;
+  overflow:hidden;
+}
+
+/* END CONTAINER */
+
+/** Presentacio **/
+  .presentation {
+  position: relative;
+  width: 100%;
+  height: 0; 
+  padding-top: 56.2500%;
+  padding-bottom: 48px; 
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+  margin-top: 1.6em; 
+  margin-bottom: 0.9em; 
+  overflow: hidden;
+  border-radius: 8px; 
+  will-change: transform;"
+}
+.presentation-iframe {
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0; 
+  border-color: #8C52FF ; 
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+/** End Presentacio **/
+
+/** About us **/
+
+
+
+/* FOOTER */
+  .panel-footer {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000;
+    background-color: #8C52FF;
+    background-attachment:; 
+    border-top: 0;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;
+  }
+
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #adress {
+    line-height: 2;
+  }
+
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+
+  #address p {
+    color:  #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+ 
+/* END FOOTER */
+
+/** End Web Page **/
+
+
+
+
+  
+
+
+
+
